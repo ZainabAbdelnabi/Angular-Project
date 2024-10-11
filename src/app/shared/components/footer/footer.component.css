@@ -1,0 +1,28 @@
+#footer {
+    background: rgb(247, 240, 240);
+    width: 100vw;
+
+}
+
+ul {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.contact li a {
+    cursor: pointer;
+    color: var(--light);
+}
+
+p {
+    color: #777;
+    font-size: 1rem;
+}
+
+#contact {
+    font-size: 1rem;
+}
+
+#content li {
+    color: #777;
+}

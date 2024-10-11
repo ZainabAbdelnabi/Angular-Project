@@ -1,0 +1,29 @@
+<div class="box py-5">
+    <div class="container">
+    <div class="row align-items-center">
+    <div class="col-md-5 col-sm-12">
+    
+        <img class="w-100" src="{{product.image}}" alt="sas">
+    </div>
+    <div class="col-md-7 col-sm-12">
+        <div class="info pt-5">
+            <ul class="list-unstyled">
+                <li><strong>Title : </strong>{{product.title}}</li>
+                <li><strong>Category : </strong>{{product.category}}</li>
+                <li><strong>Description : </strong>{{product.description}}</li>
+                <li><strong>Rate : </strong>{{product.rating.rate}}</li>
+                <li><strong>Count : </strong>{{product.rating.count}}</li>
+                <li><strong>price  : </strong>{{ product.price }}</li>
+            </ul>
+            <button class="btn btn btn-primary" >Add to Cart</button>
+            <button class="btn btn btn-primary">Buy Now</button>
+            <div class="quantity group">
+            <button>-</button>
+            <input type="text" value="1"/>
+            <button>+</button>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
